@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="index.js"></script>
+</head>
+<body>
+    <h1 class="play">Lets Play</h1>
+    <br>
+    <h2 class="play">RockPaperScissor</h2>
+   
+    <div class="container">
+        <button type="button" class="btn btn-primary btn-block" onclick="ActiveFunction()">Getting Started</button>
+        <div class="col-md-6">
+            <h1 style="text-align: center;"> User</h1>
+            
+            <button id="btn" type="button" class="btn btn-primary btn-lg" disabled>Rock</button>
+<button id="btnPaper"  value= "Paper" type="button" class="btn btn-info btn-lg" disabled onclick="Show()">Paper</button>
+<button id="btnSicssors" type="button" class="btn btn-success btn-lg" disabled>Sicssors</button>
+<div class="span"></div>
+        </div>
+        <div class="col-md-6">
+            <h1 style="text-align: center;"> Computer</h1>
+            <button id="btnC" type="button" class="btn btn-primary btn-lg" disabled>Rock</button>
+            <button id="btnCPaper" type="button" class="btn btn-info btn-lg" disabled>Paper</button>
+            <button id="btnCSicssors" type="button" class="btn btn-success btn-lg" disabled>Sicssors</button>
+        </div>
+
+    </div>
+    
+ 
+</body>
+</html>

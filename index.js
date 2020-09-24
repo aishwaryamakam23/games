@@ -8,9 +8,29 @@ function ActiveFunction(){
 
 }
 
-function Show(){
-    var tag=document.createElement("span");
-    var text = document.getElementById("btn").value;
-    console.log(text);
+function ShowP(){
+    
+    document.getElementById("ppp").innerHTML = "Papers";
+    Random();
+    
+}
+function ShowR(){
+    document.getElementById("ppp").innerHTML = "Rocks";
+    Random();
+}
+function ShowS(){
+    document.getElementById("ppp").innerHTML = "Scissors";
+    Random();
+}
+
+function Random(){
+
+var names = ["Papers","Rocks","Scissors"];
+
+var len = names.length;
+
+var ran = Math.floor(Math.random()*len);
+
+document.getElementById("ccc").innerHTML = names[ran];
 
 }
